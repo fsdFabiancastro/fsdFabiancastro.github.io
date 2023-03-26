@@ -3,14 +3,37 @@ h1 {
 }
 
 * {
-   border: 2px solid black;
+   box-sizing:border-box;
 }
+div {
+   width:30%;
+   float:left;
+   padding:0px;
+   border: 2px solid black;
+   margin: 10px;
+   background-color: gray;
+}
+
 h2 {
+  width: 35%;
+  margin:0px;
+  text-align: center;
+  float: right;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+#h2-1{
   background-color:pink;
-  text-align:right;
- }
+}
+#h2-2{
+  background-color:#A52A2A;
+}
+#h2-3{
+  background-color:yellow;
+}
 p {
- background-color: gray; 
- margin:50px;
  text-align: left;
+ padding:10px;
+ margin:0px;
+ clear:right;
 }

@@ -17,13 +17,13 @@ div {
 }
 
 h2 {
-  width: 35%;
+  width: 40%;
   margin:0px;
   text-align: center;
   float: right;
   border-left: 2px solid black;
   border-bottom: 2px solid black;
-}
+  }
 #h2-1{
   background-color:pink;
 }
